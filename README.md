@@ -4,7 +4,7 @@ A simple task manager that allows users to add, mark, and delete tasks.
 
 ## Usage
 
-1. Download the lastest release from the [releases page](https://github.com/amehibiki/simple-progress-dashboard/releases) or clone the repository.
+1. Download the lastest release from the [releases page](https://github.com/omei-ogami/simple-progress-dashboard/releases) or clone the repository.
 2. Modify `TaskManager.bat` to the path of the folder.
     ```bash
     cd "D:\Path\to\this\folder"
