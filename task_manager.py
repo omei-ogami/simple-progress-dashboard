@@ -9,7 +9,8 @@ st.session_state.tasks = read_tasks()
 check_overdue(st.session_state.tasks)
 st.session_state.tasks = sort_tasks(st.session_state.tasks)
 
-st.title("Progress Dashboard")
+st.title("Task Manager")
+st.markdown("Welcome to the Task Manager@[omei_ogami](https://github.com/omei-ogami/simple-progress-dashboard)! Here you can manage your tasks and track their progress.")
 
 # Adding a new task
 with st.container():
@@ -42,7 +43,7 @@ st.markdown("---")
 
 # Task list
 with st.container():
-    st.header("Task Manager")
+    st.header("Progress Dashboard")
     if st.session_state.tasks:
         for task_data in st.session_state.tasks:
             name, progress, completeBtn, deleteBtn = st.columns([2, 4, 1, 1])
