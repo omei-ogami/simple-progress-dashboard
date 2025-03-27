@@ -1,0 +1,16 @@
+[
+    {
+        "name": "CA",
+        "start": "2025-03-18",
+        "deadline": "2025-03-31",
+        "duration": 13,
+        "status": "complete"
+    },
+    {
+        "name": "Compiler",
+        "start": "2025-03-20",
+        "deadline": "2025-04-20",
+        "duration": 31,
+        "status": "incomplete"
+    }
+]
